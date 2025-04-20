@@ -1,9 +1,195 @@
-*{
-  padding: 0;
-  border: 0;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.madara{
-  height: 300px;
-  width: 700px;
+@font-face{
+    font-family: 'Argetsa Display';
+    src: url('./resources/fonts/argestadisplay-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.navbar {
+    font-family: 'Argetsa Display', serif;
+    display: inline-block;
+    z-index: 5;
+    
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    bottom: 3px;
+    color: white;;
+ 
+}
+
+
+.main-image img{
+    max-width: 100%;
+    height: auto;
+    min-width: 42.5%;
+}
+
+header h1{
+    font-family: 'Argetsa Display', serif;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+a:hover {
+    color: bisque;
+}
+
+header:hover {
+    background-image: linear-gradient(to left, crimson, firebrick);
+}
+
+
+.main {
+    background-color: bisque;
+    color: black;
+}
+
+.main-image h2 {
+    position: relative;
+    bottom: 80px;
+    right: 20px;
+    float: right;
+    color: white;
+    font-family: 'Argetsa Display', serif;
+    filter: drop-shadow(0.5px 0.5px 0.5px black);
+    font-size: 2.5em;
+}
+
+.ramen-quality {
+    color: darkslategray;
+    font-family: 'Argetsa Display', serif;
+    background-color: bisque;
+    height: 420px;
+}
+
+.ramen-quality img {
+    float: right;
+    border: 0px solid firebrick;
+    border-radius: 40px;
+    padding: 0px;
+    position: relative;
+    right: 50px;
+    height: 300px;
+    bottom: 100px;
+}
+
+.ramen-quality p {
+    display: inline-block;
+    width: 50%;
+    padding: 40px;
+    position: relative;
+    left: 60px;
+    top: 50px;
+}
+
+.ramen-quality h3 {
+    font-size: 2.5em;
+    padding: 30px;;
+    position: relative;
+    top: 80px;
+    left: 70px;
+    opacity: 1;
+    color: black;
+}
+
+
+.testimonials {
+    background-color: white;
+    color: black;
+    font-family: 'Argetsa Display', serif;
+    height: 420px;
+    background-image: url(./resources/images/1002255090-photo-u1.jpeg);
+    background-size: cover;
+    height: 100%;
+}
+
+.testimonials li {
+    display: block;
+    font-size: 1em;
+    width: 600px;
+    border: 5px solid firebrick;
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 40px;
+    position: relative;
+    top: 20px;
+    background-color: white;
+    filter: drop-shadow(1px 1px 1px black);
+    z-index:1;
+}
+
+.testimonials img {
+    height: 150px;
+    vertical-align: middle;
+    padding: 10px;
+   
+}
+
+.testimonials h3 {
+    display: inline-block;
+    font-size: 1.9em;
+    padding-left: 10px;
+    color: firebrick;
+    filter: drop-shadow(0.5px 0.5px 0.5px black);
+}
+
+.testimonials p {
+    display: block;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.testimonials h2 {
+    font-size: 6em;
+    width: 800px;
+    float: right;
+    color: firebrick;
+    filter: drop-shadow(1px 1px 1px black);
+    position: relative; 
+    top: 200px;
+    right: 120px;
+}
+
+.testimonials h1 {
+    font-size: 9em;
+    color: firebrick;
+    float: right;
+    filter: drop-shadow(1px 1px 1px black);
+    position: relative;
+    top: 150px;
+    left: 400px;
+}
+
+.footer {
+    background-color: firebrick;
+    color: white;
+    font-family: 'Argetsa Display', serif;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    margin: 0;
+}
+
+.footer p {
+    padding: 20px;
+    font-size: 1.1em;
 }
